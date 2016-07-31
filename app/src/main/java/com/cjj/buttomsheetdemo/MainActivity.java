@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, NestedScrollViewActivity.class));
             }
         });
+        //测试
 
         findViewById(R.id.rv).setOnClickListener(new View.OnClickListener() {
             @Override
